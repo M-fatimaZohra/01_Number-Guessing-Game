@@ -7,7 +7,7 @@ const result = await inquirer.prompt([
   {
     name: "GuessNumber",
     type: "number",
-    message: "Test you luck by puting a random number ✍ ",
+    message: "Test your luck by puting a random number ✍ ",
   },
 ]);
 console.log(`\n`);
