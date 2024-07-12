@@ -5,7 +5,7 @@ const botGuess: number = Math.random() * 10;
 
 const roundOf: number = Math.ceil(botGuess);
 
-console.log(`🎶Guess number from 0 to 10 and test you're luck🎶`);
+console.log(`🎶Guess number from 0 to 10 and test your luck🎶`);
 
 const result = await inquirer.prompt([
   {
